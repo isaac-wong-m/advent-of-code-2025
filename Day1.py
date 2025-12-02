@@ -30,7 +30,7 @@ with open("day1.txt", "r") as f:
 # for ele in test_list:
 #     print(ele[0])
 #     print(ele[1::])
-
+#
 zeroes = 0
 def left_dial(current_dial, dial_num):
     if current_dial - dial_num >= 0:
