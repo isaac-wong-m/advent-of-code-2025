@@ -15,8 +15,6 @@ R14
 L82
 """
 
-test_input_2 = "R1000"
-
 
 # with open("day1.txt", "a") as f:
 #   f.write(actual_input)
@@ -63,9 +61,10 @@ def generate_result(puzzle_input:str)->int:
     return result_count
 
 
+test_input_2 = "R000"
 
 
-print(f"result: {generate_result(actual_input)}")
+print(f"result: {generate_result(test_input_2)}")
 print(zeroes)
 
 
